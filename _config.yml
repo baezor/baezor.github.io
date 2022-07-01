@@ -23,10 +23,10 @@ email: angel@romerobaez.com
 description: >- # this means to ignore newlines until "baseurl:"
   Web Developer, entrepreneur, life-long learner.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://baezor.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://dev.romerobaez.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: baezor
 github_username:  baezor
-
+permalink: "/:title"
 # Build settings
 theme: minima
 plugins:
