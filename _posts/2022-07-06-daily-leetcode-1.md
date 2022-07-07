@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Daily Leetcode #1"
-date: 2022/7/1 00:00:00 -0500
+date: 2022/7/6 00:00:00 -0500
 description: Solving one Leetcode problem per day.
 categories: leetcode
 author: You
