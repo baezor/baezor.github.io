@@ -1,14 +1,15 @@
 ---
 layout: post
 title: "How to setup dynamic imports in Laravel Mix and WordPress"
-date: 2022/7/1 00:00:00 -0500
+date: 2024/5/10 00:00:00 -0500
 description: How to setup dynamic imports in Laravel Mix for WordPress performance
-categories: webpack
+categories: webpack laravel-mix wordpress
 author: You
 ---
 
 # How to setup dynamic imports in Laravel Mix and WordPress
-Let me show you how to set up dynamic imports in Laravel Mix for WordPress performance. 
+
+Let me show you how to set up dynamic imports in Laravel Mix for WordPress performance.
 
 I'm assuming you already know what dynamic imports in webpack are, and you just need the how-to guide to implement them on your project. Let's dive into it:
 
@@ -39,18 +40,18 @@ npm add @babel/plugin-syntax-dynamic-import --D
 
 ```js
 // Set the path to where all public assets should be compiled to.
-mix.setPublicPath(path.normalize('./wp-content/themes/my-theme/assets/build'))
+mix.setPublicPath(path.normalize("./wp-content/themes/my-theme/assets/build"));
 // Add webpack config:
 mix
   .webpackConfig({
-    devtool: 'inline-source-map',
+    devtool: "inline-source-map",
     output: {
-      chunkFilename: 'chunks/[name].js',
-      publicPath: '/wp-content/themes/my-theme/assets/build/'
-    }
+      chunkFilename: "chunks/[name].js",
+      publicPath: "/wp-content/themes/my-theme/assets/build/",
+    },
   })
   // The rest of your js configuration
-  .js(`${ASSETS_DIR}/js/main.js`, `main.js`)
+  .js(`${ASSETS_DIR}/js/main.js`, `main.js`);
 ```
 
 ### 4. How to use dynamic imports
@@ -62,26 +63,26 @@ I'm using dynamic imports to load only the JavaScript used by the modules on a p
 Here's how I'm using dynamic imports:
 
 ```js
-import camelCase from './utils/camelCase'
+import camelCase from "./utils/camelCase";
 
-document.addEventListener('DOMContentLoaded', () => {
-  const blocks = document.querySelectorAll('.block')
+document.addEventListener("DOMContentLoaded", () => {
+  const blocks = document.querySelectorAll(".block");
   blocks.forEach(async (module) => {
-    const name = camelCase(module.dataset.block)
+    const name = camelCase(module.dataset.block);
     try {
       const { Block } = await import(
         /* webpackChunkName: 'block' */ `./blocks/${name}`
-      )
-      const block = new Block(name, module)
-      block.init()
+      );
+      const block = new Block(name, module);
+      block.init();
     } catch (error) {
-      console.log(error)
+      console.log(error);
       console.warn(
         `You're missing the js file for the ${name} block. \n Create the missing file inside the blocks folder: my-theme/assets/js/blocks/${name}.js`
-      )
+      );
     }
-  })
-})
+  });
+});
 ```
 
 Individual file looks like:
@@ -89,10 +90,10 @@ Individual file looks like:
 ```js
 export class Block {
   constructor(name, node) {
-    ;(this.name = name), (this.node = node)
+    (this.name = name), (this.node = node);
   }
   init() {
-    console.log(this.name)
+    console.log(this.name);
     // The code for your block goes here.
   }
 }
@@ -101,3 +102,11 @@ export class Block {
 And that's it! I hope you find this quick tutorial useful.
 
 Happy Coding! 🎉💻
+
+# Categories
+
+{% for category in page.categories %}
+
+- {{ category }}
+  {% endfor %}
+  {::options parse_block_html="true" /}

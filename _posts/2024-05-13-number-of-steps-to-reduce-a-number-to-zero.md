@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Daily Leetcode #3"
-date: 2022/7/8 00:00:00 -0500
-description: Solving one Leetcode problem per day.
-categories: leetcode
+title: Number of Steps to Reduce a Number to Zero
+date: 2024/05/13 00:00:00 -0500
+description: Solving the Number of Steps to Reduce a Number to Zero problem on Leetcode.
+categories: leetcode algorithms
 author: You
 ---
 
