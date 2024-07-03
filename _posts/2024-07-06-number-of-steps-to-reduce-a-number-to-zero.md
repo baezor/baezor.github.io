@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Number of Steps to Reduce a Number to Zero
-date: 2024/05/13 00:00:00 -0500
+date: 2024-07-06 00:00:00 -0600
 description: Solving the Number of Steps to Reduce a Number to Zero problem on Leetcode.
 categories: leetcode algorithms
 author: You
 ---
-
-I decided to solve one Leetcode problem a day to get better at Algos and DS.
 
 ### Number of Steps to Reduce a Number to Zero
 

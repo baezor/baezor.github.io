@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "How to setup dynamic imports in Laravel Mix and WordPress"
-date: 2024/5/10 00:00:00 -0500
+date: 2024-07-03 00:00:00 -0600
 description: How to setup dynamic imports in Laravel Mix for WordPress performance
 categories: webpack laravel-mix wordpress
 author: You
 ---
 
-# How to setup dynamic imports in Laravel Mix and WordPress
+## Introduction
 
 Let me show you how to set up dynamic imports in Laravel Mix for WordPress performance.
 

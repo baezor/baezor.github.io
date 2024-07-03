@@ -1,13 +1,11 @@
 ---
 layout: post
 title: "Sum of 1d Array"
-date: 2024/05/11 00:00:00 -0500
+date: 2024-07-04 00:00:00 -0600
 description: Solving Sum of 1d Array and Richest Customer Wealth problems on Leetcode.
 categories: leetcode algorithms
 author: You
 ---
-
-I decided to solve one Leetcode problem a day to get better at Algos and DS. Here's the first exercise I did:
 
 ### Running Sum of 1d Array
 
