@@ -3,8 +3,8 @@ layout: post
 title: "Hello world again!"
 date: 2024-07-02 00:00:00 -0600
 description: I've decided to start writing again. But this time I'm taking it seriously.
-author: You
-categories: update
+author: Angel Baez
+categories: announcement
 ---
 
 ## Hi, again.
