@@ -21,7 +21,7 @@
 title: Angel Baez
 email: a@baezor.io
 description: >- # this means to ignore newlines until "baseurl:"
-  Angel Baez is a web developer based in Cancun, Mexico. He writes about web development, programming, ed-tech, and entrepreneurship.
+  Official website of Angel Baez, a web developer based in Cancun, Mexico. He covers web development, programming, ed-tech, and entrepreneurship..
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.angel-baez.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: baezor
