@@ -9,18 +9,16 @@ categories: announcement
 
 ## Hi, again.
 
-I've decided to start writing again. But this time I'm taking it seriously. After thinking about it for a while, I've concluded that writing is the most important skill someone can have. And yes, communication can have many layers and forms, but I think writing is the most powerful one.
+I have decided to start writing again, but I'm taking it seriously now. After thinking about it, I've concluded that writing, self-reflection, and sustaining focus for more extended sessions are the most important skills someone can have.
 
-The most importat goal for me is to write an entry every day to improve my writing, that's it.
+I’ll write about:
 
-I'll write about:
-
-- **Write something that someone else can find helpful in the future**
-- How to solve specific technical problems.
-- My journey on losing weight.
-- Daily thoughts.
-- Books, news, and other things that I find interesting.
-- Connect with people through my posts.
+- Something that someone else can find helpful in the future
+- How to solve specific technical problems
+- My journey to weight loss
+- Daily thoughts
+- Books, news, and other things that I find interesting
+- Habits and strategies I am implementing to improve my ability to concentrate.
 
 I hope you find something useful.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Automating Post Creation on Jekyll with a Custom Bash Script
-date: 2024-07-10 20:08:20 -0500
+date: 2024-07-10 00:00:00 -0500
 description: A bash script to automate the creation of new posts on Jekyll.
 categories: jekyll bash
 author: Angel Baez
