@@ -4,7 +4,7 @@ title: "Sum of 1d Array"
 date: 2024-07-04 00:00:00 -0600
 description: Solving Sum of 1d Array and Richest Customer Wealth problems on Leetcode.
 categories: leetcode algorithms
-author: You
+author: Angel Baez
 ---
 
 ### Running Sum of 1d Array

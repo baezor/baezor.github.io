@@ -4,7 +4,7 @@ title: Middle of the linked list
 date: 2024-07-07 00:00:00 -0600
 description: Solving the middle of the linked list problem on Leetcode
 categories: leetcode algorithms
-author: You
+author: Angel Baez
 ---
 
 ## Middle of The Linked List

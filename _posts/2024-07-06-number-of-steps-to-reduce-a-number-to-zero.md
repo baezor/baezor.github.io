@@ -4,7 +4,7 @@ title: Number of Steps to Reduce a Number to Zero
 date: 2024-07-06 00:00:00 -0600
 description: Solving the Number of Steps to Reduce a Number to Zero problem on Leetcode.
 categories: leetcode algorithms
-author: You
+author: Angel Baez
 ---
 
 ### Number of Steps to Reduce a Number to Zero
