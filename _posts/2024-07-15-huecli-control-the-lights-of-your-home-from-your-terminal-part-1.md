@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hue-CLI: Control the lights of your home from your terminal. Part #1
+title: Hue-CLI Control the lights of your home from your terminal Part 1
 date: 2024-07-15 00:00:00 -0500
 description: Launching a CLI tool to control your Phillips Hue devices.
 categories: project hue-cli phillips-hue typescript
